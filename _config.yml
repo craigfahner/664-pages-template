@@ -1,0 +1,7 @@
+# Minimal GitHub Pages config.
+# GitHub Pages builds this repo with Jekyll automatically — no workflow needed.
+# README.md becomes the home page, and links to other .md files are
+# rewritten to their .html versions when the site is built.
+title: Python Project Showcase
+description: A student Python project
+theme: jekyll-theme-minimal
