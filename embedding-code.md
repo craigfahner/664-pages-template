@@ -133,7 +133,6 @@ Because of the `if` check, the same notebook still works in regular Jupyter on y
 ### Things to Know
 
 - **Changes are saved in the visitor's browser only.** If a visitor edits your notebook, their changes stay in their own browser storage. They never change the files in your repo. To get back to the original, they can clear the site's data in their browser.
-- **Not every package works.** Packages that need compiled code (C, Rust, etc.) only work if Pyodide has built them. Check the [list of Pyodide packages](https://pyodide.org/en/stable/usage/packages-in-pyodide.html). Packages that use the network, threads, or your computer's hardware (webcams, GPUs, etc.) may not work at all.
 - **Loading data from other websites may be blocked.** Browsers only let pages load data from other sites that allow it. A best practice is to put your data files directly in the `notebook/` folder.
 
 ---
