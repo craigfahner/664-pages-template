@@ -21,4 +21,4 @@ A few sentences reflecting on the project.
 
 ---
 
-Next: [How to Run It →](how-to-run.md)
+Next: [Code Examples →](embedding-code.md)

@@ -8,8 +8,9 @@ Everything here is plain Markdown. GitHub pages renders markdown as HTML so it i
 
 This home page links to two other Markdown files in the repo. Click them to see linking in action:
 
-- [About the Project](about.md) — an example page describing a project
-- [How to Run It](how-to-run.md) — an example page with setup instructions
+- [About the Project](about.md) — an example page introducing a project, with embedded images
+- [Code examples](embedding-code.md) — an example page with code examples (both as static markdown and as interactive [pyodide](https://pyodide.org/en/stable/) snippets)
+- [A JupyterLite notebook](notebook/notebooks/index.html?path=week10.ipynb) hosted on your GitHub pages site, which can run in the browser without your viewers needing to have Jupyter Lab/Anaconda etc installed
 
 Each of those pages links back here and to each other. Open them on GitHub.com *and* on the published site — the same links work in both places.
 
@@ -24,8 +25,8 @@ Each of those pages links back here and to each other. Open them on GitHub.com *
 ## Publishing Your Site on GitHub.com
 
 1. **Make your own copy.** Click **Use this template → Create a new repository** at the top of this repo on GitHub.com (or fork it). Give the repository a name; it will become part of your site's URL.
-2. **Turn on GitHub Pages.** In your new repo, go to **Settings → Pages**. Under **Build and deployment**, set **Source** to *Deploy from a branch*, choose the `main` branch and the `/ (root)` folder, and click **Save**.
-3. **Wait for the build.** Open the **Actions** tab to watch the "pages build and deployment" job. It usually takes a minute or two.
+2. **Turn on GitHub Pages.** In your new repo, go to **Settings → Pages**. Under **Build and deployment**, set **Source** to **GitHub Actions**. (The workflow in `.github/workflows/pages.yml` builds the site, including the JupyterLite notebook. If its first run failed because Pages wasn't turned on yet, open the **Actions** tab and re-run it.)
+3. **Wait for the build.** Open the **Actions** tab to watch the "Build and deploy site" workflow. It usually takes a few minutes.
 4. **Visit your site.** It will be at:
 
    ```

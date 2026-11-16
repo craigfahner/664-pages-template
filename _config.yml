@@ -1,9 +1,14 @@
 # Minimal GitHub Pages config.
-# GitHub Pages builds this repo with Jekyll automatically — no workflow needed.
+# Jekyll builds the site from this repo (run by .github/workflows/pages.yml).
 # README.md becomes the home page, and links to other .md files are
 # rewritten to their .html versions when the site is built.
 title: Python Project Showcase
 description: A student Python project
+
+# The notebook/ folder is built separately by JupyterLite (see
+# .github/workflows/pages.yml), so Jekyll should skip it.
+exclude:
+  - notebook
 
 #Fixes "double heading" error sometimes seen on certain themes
 titles_from_headings:
