@@ -12,11 +12,11 @@ This home page links to two other Markdown files in the repo. Click them to see 
 - [Code examples](embedding-code.md) — an example page with code examples (both as static markdown and as interactive [pyodide](https://pyodide.org/en/stable/) snippets)
 - [A JupyterLite notebook](notebook/notebooks/index.html?path=week10.ipynb) hosted on your GitHub pages site, which can run in the browser without your viewers needing to have Jupyter Lab/Anaconda etc installed
 
-Each of those pages links back here and to each other. Open them on GitHub.com *and* on the published site — the same links work in both places.
+Each of those pages links back here and to each other. You can open them on GitHub.com *and* on the published site — the same links work in both places.
 
 ## How It Works
 
-- GitHub Pages runs a tool called Jekyll on your repo automatically every time you push. It converts each `.md` file into an `.html` page.
+- GitHub Pages runs a tool called [Jekyll](https://jekyllrb.com/) on your repo automatically every time you push. It converts each `.md` file into an `.html` page.
 - **`README.md` is the home page.** If there's no `index.md` in the repo, GitHub Pages uses `README.md` as the landing page.
 - **Linking between pages is just a normal Markdown link.** Write `[About the Project](about.md)` and GitHub Pages rewrites it to `about.html` when it builds the site. Because the link points to the `.md` file, it also works when browsing the repo on GitHub.com.
 - **No front matter required.** You don't need the `---` block some Jekyll tutorials show at the top of each file. Each page's first `# Heading` is used as its title.
