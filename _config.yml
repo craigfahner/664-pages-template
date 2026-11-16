@@ -4,6 +4,11 @@
 # rewritten to their .html versions when the site is built.
 title: Python Project Showcase
 description: A student Python project
+
+#Fixes "double heading" error sometimes seen on certain themes
+titles_from_headings:
+  strip_title: true
+
 # Theme: keep exactly one "theme:" line uncommented.
 # To switch, add a # in front of the current theme and remove the # from another.
 theme: minima
