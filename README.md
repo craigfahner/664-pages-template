@@ -15,11 +15,11 @@ Each of those pages links back here and to each other. Open them on GitHub.com *
 
 ## How It Works
 
-- **No setup files needed.** GitHub Pages runs a tool called Jekyll on your repo automatically every time you push. It converts each `.md` file into an `.html` page.
-- **`README.md` becomes the home page.** If there's no `index.md` in the repo, GitHub Pages uses `README.md` as the landing page.
+- GitHub Pages runs a tool called Jekyll on your repo automatically every time you push. It converts each `.md` file into an `.html` page.
+- **`README.md` is the home page.** If there's no `index.md` in the repo, GitHub Pages uses `README.md` as the landing page.
 - **Linking between pages is just a normal Markdown link.** Write `[About the Project](about.md)` and GitHub Pages rewrites it to `about.html` when it builds the site. Because the link points to the `.md` file, it also works when browsing the repo on GitHub.com.
 - **No front matter required.** You don't need the `---` block some Jekyll tutorials show at the top of each file. Each page's first `# Heading` is used as its title.
-- **`_config.yml` controls site-wide settings.** In this repo it only sets the site title, description, and theme. Try changing the `theme:` line to another [supported theme](https://pages.github.com/themes/) such as `jekyll-theme-cayman`.
+- **`_config.yml` controls site-wide settings.** In this repo it only sets the site title, description, and theme. Try changing the `theme:` line to another [supported theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll/) such as `jekyll-theme-cayman`.
 
 ## Publishing Your Site on GitHub.com
 

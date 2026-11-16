@@ -4,4 +4,10 @@
 # rewritten to their .html versions when the site is built.
 title: Python Project Showcase
 description: A student Python project
-theme: jekyll-theme-minimal
+# Theme: keep exactly one "theme:" line uncommented.
+# To switch, add a # in front of the current theme and remove the # from another.
+theme: minima
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-dinky
+# theme: jekyll-theme-tactile
+# theme: jekyll-theme-slate
