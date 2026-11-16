@@ -2,8 +2,8 @@
 # Jekyll builds the site from this repo (run by .github/workflows/pages.yml).
 # README.md becomes the home page, and links to other .md files are
 # rewritten to their .html versions when the site is built.
-title: Python Project Showcase
-description: A student Python project
+title: Python Project
+description: An INFO-664 Project
 
 # The notebook/ folder is built separately by JupyterLite (see
 # .github/workflows/pages.yml), so Jekyll should skip it.
