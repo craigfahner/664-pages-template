@@ -8,7 +8,7 @@ Everything here is plain Markdown. GitHub pages renders markdown as HTML so it i
 
 This home page links to two other Markdown files in the repo. Click them to see linking in action:
 
-- [About the Project](about.md) — an example page introducing a project, with embedded images
+- [Markdown examples](about.md) — an example page with embedded tables and images
 - [Code examples](embedding-code.md) — an example page with code examples (both as static markdown and as interactive [pyodide](https://pyodide.org/en/stable/) snippets)
 - [A JupyterLite notebook](notebook/notebooks/index.html?path=week10.ipynb) hosted on your GitHub pages site, which can run in the browser without your viewers needing to have Jupyter Lab/Anaconda etc installed
 
